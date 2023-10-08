@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO INTEGRADOR ORTEGA MATIAS</title>
+    <link rel="stylesheet" href="/tp/css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <div class="logotipo">
+                <a ref="#">
+                    <img src="tp\assets\img\codoacodo.png" class="logo" alt="logo de codo a codo 4.0">
+                    </a>
+                    <h2>Conf Bs As</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="colorBlanco" href="#conferencia"> La Conferencia</a></li>
+                    <li><a class="colorGris" href="#oradores">Los oradores</a></li>
+                    <li><a class="colorGris" href="#lugarFecha">El lugar y la fecha</a></li>
+                    <li><a class="colorgris" href="#formularioOrador">>Conviertete en orador</a></li>
+                    <li><a class="colorVerde" href="tp\pages\tickets.html">Comprar tickets</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="conferencia" id="conferencia">
+            <div class="textoConf">
+                <h1 class="TituloPrincipal">Conf Bs As</h1>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los
+                    expertos que estan creando el futuro de internet. van a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los
+                     oradores de primer nivel que tenemos para ti. Te esperamos! </p>
+            </div>
+            <div>
+                <a class="botonOrador" href="#formularioOrador">Quiero ser orador</a>
+                <a class="botonComprar" href="tp\pages\404.html">Comprar tickets</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <h2> Conoce a Los <div class="tituloOradores">ORADORES</div></h2>
+        <section class="oradores" id="oradores">
+        <div class="steve">
+            <img class="ImagenOrador" src="tp\assets\img\steve.jpg" alt="Steve Jobs" >
+            <div class="contenido">
+            <h4 class="tituloAmarillo">JavaScript</h4>
+            <h4 class="tituloCeleste">React</h4>
+            <h3 class="Orador">Steve Jobs</h3>
+            <p>Steven Paul Jobs fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor
+                estadounidense. Fue cofundador y presidente ejecutivo de apple y maximo accionista individual de The Walt Disney Company</p>
+            </div>
+        </div>
+        <div class="bill">
+            <img class="ImagenOrador" src="tp\assets\img\bill.jpg" alt="Bill Gates" >
+            <div class="contenido">
+                <h4 class="tituloAmarillo">Javascript</h4>
+                <h4 class="tituloCeleste">React</h4>
+                <h3 class="Orador">Bill gates</h3>
+                <p> William Gates es un magnate empresarial, desarrollador de software, inversor,autor y filantropo estadounidense.
+                    Es cofundador de Microsoft, durante su carrera en Microsoft, ocupo los cargos de presidente,
+                    director ejecutivo y arquitecto de software, ademas de ser el mayor accionista.
+                </p>
+            </div>
+         </div>
+          <div class="ada">
+             <img class="ImagenOrador" src="tp\assets\img\ada.jpeg" alt="Ada Lovelace">
+            <div class="contenido">
+                <h4 class="titloGris">Negocios</h4>
+                <h4 class="tituloRojo">Startups</h4>
+                <h3 class="Orador">Ada Lovelace</h3>
+                <p>Ada Lovelace, fue la primera en reconocer que la maquina tenia aplicaciones mas alla del calculo puro y en
+                    haber publicado lo que se reconoce hoy como el primer algoritmo destinado a ser procesado
+                    por una maquina, es considerada como la primera programadora de ordenadores.
+                </p>
+            </div>
+         </div> 
+        </section>
+        <section class=""lugarFecha" id="lugarFecha">
+             <img src="tp/assets/img/honolulu.jpg" alt="Foto de la playa de Honolulu">
+             <div class="lugar">
+                <h2> Bs As - Octubre</h2>
+                <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos, Honolulu es la mas sureña entre las principales
+                    ciudades estadounidenses. Aunque el nombre Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de 
+                    Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aprox. 600 km de superficie).
+                </p>
+                <div class="conoceMas">
+                    <a href="tp/pages/404.html"> conoce mas </a>
+                </div>
+             </div>
+        </section>
+        <section class="form1" id="formularioOrador">
+            <div class="formulario">
+                <h2>Conviertete en un <div class="tituloOrador">Orador</div></h2>
+                <p>Anotate como orador para dar una charla ignite.Cuentanos que quieres hablar!</p>
+            </div>
+            <div class="contenidoFormulario">
+                <form action="tp/pages/404.html" method="get">
+                <div class="datos">
+                    <div class="name">
+                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="ape">
+                        <input type="text" id="apellido" name="apeliido" placeholder="Apellido" required>
+                    </div>
+                </div>
+                <br>
+                <div>
+                        <textarea name="comentario" id="comentario" placeholder="sobre que quieres hablar?" cols="30" rows="10"  required></textarea>
+                </div>
+                    <div class="botonEnviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+        <footer>
+            <div class="footer">
+                <a class="footerAnclas" href="tp/pages/404.html">Preguntas Frecuentes</a>
+                <a class="footerAnclas" href="tp/pages/404.html">Prensa</a>
+                <a class="footerAnclas" href="#conferencia">conferencia</a>
+                <a class="footerAnclas" href="tp/pages/404.html">Terminos y condiciones</a>
+                <a class="footerAnclas" href="tp/pages/404.html">Privacidad</a>
+                <a class="footerAnclas" href="#formularioOrador">estudiantes</a>
+                <a class="footerAnclas" href="#formularioOrador">Contactanos</a>
+            </div>
+        </footer>
+</body>
+</html>
